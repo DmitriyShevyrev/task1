@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            color:#0015ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1> First task </h1>
+    <ul>
+        <li> <a href="http://kubsu.ru/ru">КубГУ</a> </li>
+        <li> <a href="https://translate.yandex.ru/"> Яндекс переводчик </a> </li>
+        <li> <a href="https://www.wildberries.ru/catalog/223913573/detail.aspx"><img src="https://basket-15.wbbasket.ru/vol2239/part223913/223913573/images/c246x328/1.webp" 
+            width = "256" 
+            height ="256" 
+            alt = "Ссылка на рубашку" /> </a> </li>
+        <li> <a href="https://www.kubsu.ru/ru/education"> КубГУ Образование </a> </li>  
+        <li> <a href="https://clck.ru/3DH4oU"> Сокращенная ссылка на внутреннюю страницу КубГУ Образование </a> </li>
+
+        <br/> 
+
+        <li> <a href="https://www.kubsu.ru"> Сокращенная ссылка на главную страницу КубГУ </a> </li>
+        <li> <a href="webstr.html"> Внутрення сокращенная</a> </li>
+        <li> <a href="#ФОРМА"> Ccылкa на фрагмент текущей страницы </a></li>
+        <li> <a href="https://example.com/user?name=Ivan&age=42&city=Moscow"> Ссылка с тремя параметрами в URL</a> </li>
+        <li> <a href="https://www.wildberries.ru/user?id=52"> Ссылку с параметром id в URL</a> </li>
+
+        <br/>
+
+        <li><a href="./webstr.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+        <li><a href="./about/vkatologeabout.html">Страница в каталоге about</a></li>
+        <li><a href="../filenaodin.html">Относительная на страницу в каталоге уровнем выше текущего</a></li>
+        <li><a href="../../filenadva.html">Относительная на страницу в каталоге на 2 уровня выше текущего</a></li>
+
+        <br/>
+
+        <li> <a href="">Относительная на страницу в текущем каталоге</a> </li>
+        <p>
+            В конце 1970-х годов <a href="https://ru.wikipedia.org/wiki/Джобс,_Стив"> Стив Джобс </a> и его друг <a href="https://ru.wikipedia.org/wiki/Возняк,_Стив"> Стив Возняк</a> 
+            разработали один из первых персональных компьютеров,
+            обладавший большим коммерческим потенциалом.
+        </p>
+        <li> <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B7%D0%BD%D1%8F%D0%BA,
+            _%D0%A1%D1%82%D0%B8%D0%B2#:~:text=9%5D.-,%D0%A0%D0%B0%D0%BD%D0%BD%D0%B8%D0%B5%20%D0%B3%D0%BE%D0%B4%D1%8B,
+            -%5B%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%7C"> Ранние годы </a></li>
+            <li>
+                <img src="https://avatars.mds.yandex.net/get-mpic/3986638/img_id1570444521473320416.jpeg/orig" usemap="#pictureMap" alt="Пейзаж" width="200" height="200">
+                <map name="pictureMap">
+                    <area shape="rect" coords="0,115,200,200" alt="Море" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fru.wikiquote.org%2Fwiki%2F%25D0%259C%25D0%25BE%25D1%2580%25D0%25B5&psig=AOvVaw0wGr0Ddg02caVjoV3tiB6s&ust=1725989789569000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNi_iZeztogDFQAAAAAdAAAAABAE" target="_blank">
+                    <area shape="circle" coords="100,100,10" alt="Sun" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fnaked-science.ru%2Farticle%2Finterview%2Fthe-sun&psig=AOvVaw1gEjDicmny4TtxnLkAEnZa&ust=1725989771130000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPjZ_I2ztogDFQAAAAAdAAAAABAE" target="_blank">
+                </map>
+            </li>
+            <li> <a href=""> С пустым href</a></li>
+            <li> <a> Без </a></li>
+            <li> <a href="https://wm-school.ru/html/html_links.html" rel="nofollow"> Ссылка, по которой запрещен переход поисковикам</a></li>
+
+            <br/>
+
+            <li> <a href="https://ru.ruwiki.ru/" rel="noindex" > C запретом индексации</a></li>
+            <ol>
+                <li><a title="Один" href="index.html" >Один</a></li>
+                <li><a title="Два" href="index.html" >Два</a></li>
+                <li><a title="Три" href="index.html" >Три</a></li>
+            </ol>
+            <li><a href="ftp://username:password@ftp.sobaka.com/path/to/file"> С авторизацией на файл</a></li>
+
+        
+    </ul>
+
+    <p id = "ФОРМА"> <h1> ФОРМА ДЛЯ ЗАПОЛНЕНИЯ </h1> </p>
+
+    <form action="/" method="POST">
+        <label for="field-name-1">
+            ФИО:<br>
+            <input id="field-name-1" name="field-name-1" placeholder="Иванов Иван Иванович" required>
+        </label><br>
+
+        <div>
+            <label>Пол:</label>
+            <label>
+                М
+                <input type="radio" name="radio-1">
+            </label>
+            <label>
+                Ж
+                <input type="radio" name="radio-1">
+            </label>
+        </div>
+
+        <label for="phone">
+            Телефон:<br>
+            <input id="phone" type="tel" name="phone" placeholder="+7 (800) 555-35-35" required>
+        </label><br>
+        <label for="field-email">
+            Электронная почта:<br>
+            <input id="field-email" name="field-email" type="email" placeholder="tikto@example.com" required>
+        </label><br>
+        <label for="field-date">
+            Дата рождения:<br>
+            <input id="field-date" name="field-date" value="2006-01-01" type="date" required>
+        </label><br>
+
+        </div>
+        <label>
+            Ваш любимый язык программирования:
+            <select name="language">
+                <option value="java">Java</option>
+                <option value="dart">Dart</option>
+                <option value="js">JavaScript</option>
+                <option value="c">C</option>
+                <option value="cpp">C++</option>
+                <option value="golang">Go</option>
+            </select>
+        </label>
+
+</body>
+</html>
